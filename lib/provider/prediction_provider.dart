@@ -12,6 +12,12 @@ class PredictionProvider extends ChangeNotifier {
     decimalDigits: 0,
   );
 
+  final currencyzmb = NumberFormat.currency(
+    locale: 'id_ZMB',
+    symbol: 'ZMB',
+    decimalDigits: 0,
+  );
+
   OpenAiResponseModel? openAiResponse;
 
   Future<void> getRecommendations({
