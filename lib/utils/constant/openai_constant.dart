@@ -1,5 +1,4 @@
-import 'package:flutter_openai_app/env/env.dart';
-
 class OpenAIConstant {
-  static const String apiKey = Env.apiKey;
+  static const String apiKey =
+      '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';
 }
