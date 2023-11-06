@@ -11,12 +11,11 @@ class PredictionProvider extends ChangeNotifier {
     symbol: 'IDR',
     decimalDigits: 0,
   );
-  final currencyUSD = NumberFormat.currency(
-    locale: 'en_US',
-    symbol: 'USD',
+  final currencyRinggit = NumberFormat.currency(
+    locale: 'ml_Ringgit',
+    symbol: 'Ringgit',
     decimalDigits: 0,
   );
-
   final currencyzmb = NumberFormat.currency(
     locale: 'id_ZMB',
     symbol: 'ZMB',
