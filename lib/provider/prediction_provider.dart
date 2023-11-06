@@ -11,6 +11,11 @@ class PredictionProvider extends ChangeNotifier {
     symbol: 'IDR',
     decimalDigits: 0,
   );
+  final currencyUSD = NumberFormat.currency(
+    locale: 'en_US',
+    symbol: 'USD',
+    decimalDigits: 0,
+  );
 
   OpenAiResponseModel? openAiResponse;
 
